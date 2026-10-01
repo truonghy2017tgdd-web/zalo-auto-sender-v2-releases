@@ -1,0 +1,12 @@
+{
+  "latest_version": "2.0.0",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.0/Zalo.Auto.Sender.V2.Setup.2.0.0.exe",
+  "release_date": "2026-10-01",
+  "force_update": false,
+  "changelog": [
+    "Nâng cấp bộ ba công cụ cào data: Google Maps, Doanh Nghiệp (Infocom/Masothue), Facebook MXH",
+    "Tự động nạp data mới vào chiến dịch theo bộ lọc từ khóa & địa bàn (Auto-Sync)",
+    "Nhận diện data mới và tự động gửi ngay lập tức",
+    "Phân tách kênh cập nhật độc lập V2 không ảnh hưởng đến V1"
+  ]
+}
