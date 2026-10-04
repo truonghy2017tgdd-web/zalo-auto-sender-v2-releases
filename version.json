@@ -1,13 +1,15 @@
 {
-  "latest_version": "2.0.0",
-  "release_date": "2026-10-01",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.0/Zalo.Auto.Sender.V2.Setup.2.0.0.exe",
-  "release_notes": "Phiên bản V2 (2.0.0): Cào data đa kênh Google Maps, Doanh Nghiệp, Facebook MXH; Tự động nạp vào chiến dịch theo bộ lọc (Auto-Sync); Tự động gửi ngay lập tức.",
+  "latest_version": "2.0.1",
+  "release_date": "2026-10-04",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.1/Zalo.Auto.Sender.V2.Setup.2.0.1.exe",
+  "release_notes": "Phiên bản V2 (2.0.1): Khắc phục lỗi Auto-Feed nạp chiến dịch (0 tasks); Tự động tra cứu UID Zalo đối với SĐT cào được; Lọc sạch số di động chuẩn (03, 05, 07, 08, 09); Tối ưu hoá bộ ba cào data.",
   "force_update": false,
   "changelog": [
+    "Khắc phục lỗi nạp chiến dịch Auto-Feed (0 tasks / 0%)",
+    "Khắc phục lỗi gửi tin nhắn: tra cứu UID Zalo chính xác từ số điện thoại (loại bỏ lỗi Tham số không hợp lệ)",
+    "Bộ lọc số di động chuẩn (03, 05, 07, 08, 09), tự động loại bỏ số bàn",
     "Nâng cấp bộ ba công cụ cào data: Google Maps, Doanh Nghiệp (Infocom/Masothue), Facebook MXH",
     "Tự động nạp data mới vào chiến dịch theo bộ lọc từ khóa & địa bàn (Auto-Sync)",
-    "Nhận diện data mới và tự động gửi ngay lập tức",
-    "Phân tách kênh cập nhật độc lập V2 không ảnh hưởng đến V1"
+    "Hỗ trợ kênh cập nhật độc lập V2 không ảnh hưởng đến V1"
   ]
 }
