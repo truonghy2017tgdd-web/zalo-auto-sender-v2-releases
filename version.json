@@ -1,14 +1,15 @@
 {
-  "latest_version": "2.0.2",
-  "release_date": "2026-10-07",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.2/Zalo.Auto.Sender.V2.Setup.2.0.2.exe",
-  "release_notes": "Phiên bản V2 (2.0.2): Đồng bộ thẻ phân loại Zalo (Labeling) trực tiếp vào tất cả các loại chiến dịch; Bổ sung nút ép làm mới thẻ; Tối ưu tạo chiến dịch từ bộ lọc cào data; Tự phục hồi và bảo vệ phiên làm việc.",
+  "latest_version": "2.0.3",
+  "release_date": "2026-10-08",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.3/Zalo.Auto.Sender.V2.Setup.2.0.3.exe",
+  "release_notes": "Phiên bản V2 (2.0.3): Sửa triệt để lỗi khi bấm Sửa chiến dịch; Sửa lỗi Database is not defined; Nâng cấp cơ chế tự động quét CSDL cào data định kỳ (Scraper Poller 30s) và bảng điều khiển Live Monitor thông minh.",
   "force_update": false,
   "changelog": [
-    "Đồng bộ thẻ phân loại trực tiếp từ Zalo (Labeling) và cho phép người dùng chọn thẻ gắn tự động",
-    "Áp dụng tính năng gắn thẻ Zalo cho TẤT CẢ các chiến dịch (Tạo mới, Chỉnh sửa, Auto-Feed)",
-    "Bổ sung nút [🔄 Đồng bộ thẻ từ Zalo] ép làm mới danh sách thẻ theo thời gian thực",
-    "Tối ưu tạo chiến dịch từ bộ lọc cào data chuyển qua Wizard 3 bước chuẩn để soạn kịch bản và thiết lập an toàn",
-    "Cơ chế tự phục hồi và bảo vệ phiên làm việc Zalo, chống thoát phiên giả do mạng chập chờn"
+    "Sửa triệt để lỗi khi bấm Sửa chiến dịch: khắc phục lỗi editAliasInputRef is not defined trên Modal chỉnh sửa",
+    "Sửa lỗi hiển thị Database is not defined khi tạo chiến dịch hoặc xem chi tiết chiến dịch",
+    "Cơ chế tự động quét CSDL cào data định kỳ (Scraper Poller 30s/lần) khi chiến dịch đang chạy",
+    "Chiến dịch chuyển sang trạng thái chờ lắng nghe cào data mới thay vì tự động kết thúc khi hết hàng đợi",
+    "Bảng điều khiển Live Monitor cho nguồn cào data: chọn chu kỳ quét linh hoạt, nút bật/tắt tự quét và quét ngay",
+    "Đồng bộ kết quả gửi 2 chiều về kho dữ liệu cào (Google Maps, Doanh Nghiệp, Facebook)"
   ]
 }
