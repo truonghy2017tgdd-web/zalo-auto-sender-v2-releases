@@ -1,7 +1,7 @@
 {
   "latest_version": "2.0.3",
   "release_date": "2026-10-08",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.3/Zalo.Auto.Sender.V2.Setup.2.0.3.exe",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.4/Zalo.Auto.Sender.V2.Setup.2.0.4.exe",
   "release_notes": "Phiên bản V2 (2.0.3): Sửa triệt để lỗi khi bấm Sửa chiến dịch; Sửa lỗi Database is not defined; Nâng cấp cơ chế tự động quét CSDL cào data định kỳ (Scraper Poller 30s) và bảng điều khiển Live Monitor thông minh.",
   "force_update": false,
   "changelog": [
