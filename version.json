@@ -1,15 +1,14 @@
 {
-  "latest_version": "2.0.3",
-  "release_date": "2026-10-08",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.4/Zalo.Auto.Sender.V2.Setup.2.0.4.exe",
-  "release_notes": "Phiên bản V2 (2.0.3): Sửa triệt để lỗi khi bấm Sửa chiến dịch; Sửa lỗi Database is not defined; Nâng cấp cơ chế tự động quét CSDL cào data định kỳ (Scraper Poller 30s) và bảng điều khiển Live Monitor thông minh.",
+  "latest_version": "2.0.5",
+  "release_date": "2026-10-12",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.5/Zalo.Auto.Sender.V2.Setup.2.0.5.exe",
+  "release_notes": "Phiên bản V2 (2.0.5): Nâng cấp bộ cào dữ liệu Google Maps 2 lớp (Layer 1: Phường/Xã + Layer 2: Tự động trích xuất Top 20 tuyến đường đông đúc nhất để quét sâu), phá vỡ giới hạn data trả về của Google Maps, tích hợp cơ chế chống trùng lặp thông minh.",
   "force_update": false,
   "changelog": [
-    "Sửa triệt để lỗi khi bấm Sửa chiến dịch: khắc phục lỗi editAliasInputRef is not defined trên Modal chỉnh sửa",
-    "Sửa lỗi hiển thị Database is not defined khi tạo chiến dịch hoặc xem chi tiết chiến dịch",
-    "Cơ chế tự động quét CSDL cào data định kỳ (Scraper Poller 30s/lần) khi chiến dịch đang chạy",
-    "Chiến dịch chuyển sang trạng thái chờ lắng nghe cào data mới thay vì tự động kết thúc khi hết hàng đợi",
-    "Bảng điều khiển Live Monitor cho nguồn cào data: chọn chu kỳ quét linh hoạt, nút bật/tắt tự quét và quét ngay",
-    "Đồng bộ kết quả gửi 2 chiều về kho dữ liệu cào (Google Maps, Doanh Nghiệp, Facebook)"
+    "Bộ cào Google Maps 2 lớp (2-Layer Recursive Street Scan) bứt phá giới hạn 60-120 data của Google Maps",
+    "Động cơ bóc tách tên đường tiếng Việt (Street Extraction Engine) lọc sạch số nhà, hẻm, kiệt và xếp hạng Top tuyến đường",
+    "Tự động chèn route quét lớp 2 theo tuyến đường vào hàng đợi đang chạy mà không làm gián đoạn tiến trình",
+    "Lọc trùng Diff Engine theo số điện thoại và tên doanh nghiệp, đảm bảo dữ liệu tinh gọn và chuẩn xác",
+    "Cấu hình linh hoạt bật/tắt quét sâu và chọn số lượng top đường (5 - 30 tuyến đường) trong Preset Bộ Lọc"
   ]
 }
