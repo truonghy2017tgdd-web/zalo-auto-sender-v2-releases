@@ -1,7 +1,7 @@
 {
   "latest_version": "2.0.6",
   "release_date": "2026-10-13",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.6/Zalo.Auto.Sender.V2.Setup.2.0.6.exe",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.7/Zalo.Auto.Sender.V2.Setup.2.0.7.exe",
   "release_notes": "Phiên bản V2 (2.0.6): Ra mắt Kho Tiện Ích Mở Rộng (Extensions Hub) trực tiếp trên màn hình chính và Mini-App Thu Hồi Lời Mời Kết Bạn Đã Gửi (quét danh sách chờ duyệt, chọn thứ tự từ cũ đến mới / từ mới đến cũ, delay ngẫu nhiên chống checkpoint).",
   "force_update": false,
   "changelog": [
