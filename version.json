@@ -1,14 +1,14 @@
 {
-  "latest_version": "2.0.6",
-  "release_date": "2026-10-13",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.7/Zalo.Auto.Sender.V2.Setup.2.0.7.exe",
-  "release_notes": "Phiên bản V2 (2.0.6): Ra mắt Kho Tiện Ích Mở Rộng (Extensions Hub) trực tiếp trên màn hình chính và Mini-App Thu Hồi Lời Mời Kết Bạn Đã Gửi (quét danh sách chờ duyệt, chọn thứ tự từ cũ đến mới / từ mới đến cũ, delay ngẫu nhiên chống checkpoint).",
+  "latest_version": "2.0.8",
+  "release_date": "2026-10-22",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.8/Zalo.Auto.Sender.V2.Setup.2.0.8.exe",
+  "release_notes": "Phiên bản V2 (2.0.8): Nâng cấp tính năng Từ khóa loại trừ cho bộ cào Google Maps (loại bỏ công an, bệnh viện, UBND...), cơ chế bỏ qua sớm tiết kiệm tài nguyên và nút dọn rác loại trừ 1-click.",
   "force_update": false,
   "changelog": [
-    "Kho Tiện Ích Mở Rộng (Extensions Hub) trực tiếp trên màn hình chính với giao diện danh sách Mini-App",
-    "Mini-App Thu Hồi Lời Mời Kết Bạn Đã Gửi: Tự động đọc & đếm tổng số lời mời đang chờ duyệt theo thời gian thực",
-    "Tùy chọn thu hồi theo thứ tự: Từ cũ nhất đến mới nhất (dưới lên trên) hoặc Từ mới nhất đến cũ nhất (trên xuống dưới)",
-    "Cơ chế Delay an toàn kèm Random Jitter & Tự động ngắt khi phát hiện Rate Limit từ Zalo",
-    "Bộ cào Google Maps 2 lớp (2-Layer Recursive Street Scan) bứt phá giới hạn 60-120 data của Google Maps"
+    "Nâng cấp tính năng Từ khóa loại trừ cho bộ cào Google Maps: loại bỏ công an, bệnh viện, ủy ban nhân dân, cơ quan nhà nước...",
+    "Tự động chuẩn hóa tiếng Việt (không dấu / có dấu) và so khớp linh hoạt theo tên địa điểm và ngành nghề",
+    "Tối ưu bỏ qua sớm (Early Skip) trên thẻ kết quả giúp tăng tốc độ cào Playwright và tiết kiệm tài nguyên",
+    "Bổ sung nút Dọn Rác Loại Trừ 1-click để thanh lọc các dữ liệu không cần thiết đã cào từ trước trong Database",
+    "Bổ sung mẫu gợi ý từ khóa loại trừ nhanh (Cơ quan nhà nước, Y tế, Giáo dục) ngay trong Preset"
   ]
 }
