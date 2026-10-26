@@ -1,14 +1,13 @@
 {
-  "latest_version": "2.0.8",
-  "release_date": "2026-10-22",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.8/Zalo.Auto.Sender.V2.Setup.2.0.8.exe",
-  "release_notes": "Phiên bản V2 (2.0.8): Nâng cấp tính năng Từ khóa loại trừ cho bộ cào Google Maps (loại bỏ công an, bệnh viện, UBND...), cơ chế bỏ qua sớm tiết kiệm tài nguyên và nút dọn rác loại trừ 1-click.",
+  "latest_version": "2.0.9",
+  "release_date": "2026-10-26",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.9/Zalo.Auto.Sender.V2.Setup.2.0.9.exe",
+  "release_notes": "Phiên bản V2 (2.0.9): Khắc phục chặn khung giờ 7h20, đại tu toàn diện độ tương phản giao diện Light Mode, nâng cấp bộ lọc đa điều kiện và bổ sung tài liệu hướng dẫn sử dụng.",
   "force_update": false,
   "changelog": [
-    "Nâng cấp tính năng Từ khóa loại trừ cho bộ cào Google Maps: loại bỏ công an, bệnh viện, ủy ban nhân dân, cơ quan nhà nước...",
-    "Tự động chuẩn hóa tiếng Việt (không dấu / có dấu) và so khớp linh hoạt theo tên địa điểm và ngành nghề",
-    "Tối ưu bỏ qua sớm (Early Skip) trên thẻ kết quả giúp tăng tốc độ cào Playwright và tiết kiệm tài nguyên",
-    "Bổ sung nút Dọn Rác Loại Trừ 1-click để thanh lọc các dữ liệu không cần thiết đã cào từ trước trong Database",
-    "Bổ sung mẫu gợi ý từ khóa loại trừ nhanh (Cơ quan nhà nước, Y tế, Giáo dục) ngay trong Preset"
+    "Khắc phục triệt để lỗi chặn khung giờ 7h20 sáng và hỗ trợ tự động chuyển phiên gửi liên tục",
+    "Đại tu toàn diện độ tương phản giao diện Sáng (Light Mode) trên toàn bộ các màn hình và hộp thoại",
+    "Nâng cấp bộ lọc đa điều kiện (Multi-Select) cho Công cụ Khai thác Dữ liệu (Google Maps, Doanh nghiệp mới, Facebook)",
+    "Cập nhật bộ tài liệu hướng dẫn sử dụng chi tiết tích hợp hình ảnh trực quan"
   ]
 }
