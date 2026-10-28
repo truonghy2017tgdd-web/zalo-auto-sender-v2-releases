@@ -1,7 +1,7 @@
 {
   "latest_version": "2.0.9",
   "release_date": "2026-10-26",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.0.9/Zalo.Auto.Sender.V2.Setup.2.0.9.exe",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.0/Zalo.Auto.Sender.V2.Setup.2.1.0.exe",
   "release_notes": "Phiên bản V2 (2.0.9): Khắc phục chặn khung giờ 7h20, đại tu toàn diện độ tương phản giao diện Light Mode, nâng cấp bộ lọc đa điều kiện và bổ sung tài liệu hướng dẫn sử dụng.",
   "force_update": false,
   "changelog": [
