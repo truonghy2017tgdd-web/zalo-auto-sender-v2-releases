@@ -1,13 +1,13 @@
 {
-  "latest_version": "2.0.9",
-  "release_date": "2026-10-26",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.0/Zalo.Auto.Sender.V2.Setup.2.1.0.exe",
-  "release_notes": "Phiên bản V2 (2.0.9): Khắc phục chặn khung giờ 7h20, đại tu toàn diện độ tương phản giao diện Light Mode, nâng cấp bộ lọc đa điều kiện và bổ sung tài liệu hướng dẫn sử dụng.",
+  "latest_version": "2.1.1",
+  "release_date": "2026-10-28",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.1/Zalo.Auto.Sender.V2.Setup.2.1.1.exe",
+  "release_notes": "Phiên bản V2 (2.1.1): Bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
   "force_update": false,
   "changelog": [
-    "Khắc phục triệt để lỗi chặn khung giờ 7h20 sáng và hỗ trợ tự động chuyển phiên gửi liên tục",
-    "Đại tu toàn diện độ tương phản giao diện Sáng (Light Mode) trên toàn bộ các màn hình và hộp thoại",
-    "Nâng cấp bộ lọc đa điều kiện (Multi-Select) cho Công cụ Khai thác Dữ liệu (Google Maps, Doanh nghiệp mới, Facebook)",
-    "Cập nhật bộ tài liệu hướng dẫn sử dụng chi tiết tích hợp hình ảnh trực quan"
+    "Bổ sung tính năng cập nhật và điền các trường dữ liệu bị thiếu từ trang Mã Số Thuế vào file Excel của khách hàng",
+    "Thêm nút bấm tùy chọn trường thông tin cần lấy khi cào dữ liệu doanh nghiệp mới",
+    "Tích hợp cửa sổ xác thực & tự động vượt kiểm tra bot Cloudflare (Turnstile) cho masothue.com",
+    "Định dạng chuẩn bảo toàn số 0 ở đầu cho toàn bộ Mã số thuế và Số điện thoại khi nhập xuất Excel"
   ]
 }
