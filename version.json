@@ -1,14 +1,14 @@
 {
-  "latest_version": "2.1.2",
+  "latest_version": "2.1.3",
   "release_date": "2026-10-29",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.2/Zalo.Auto.Sender.V2.Setup.2.1.2.exe",
-  "release_notes": "Phiên bản V2 (2.1.2): Nâng cấp gửi kèm hình ảnh, bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.3/Zalo.Auto.Sender.V2.Setup.2.1.3.exe",
+  "release_notes": "Phiên bản V2 (2.1.3): Sửa triệt để gửi file PNG, tự động tối ưu hóa HD, sửa lỗi giới hạn chunk Zalo, kèm tính năng điền dữ liệu thiếu MST và vượt Cloudflare.",
   "force_update": false,
   "changelog": [
-    "Sửa lỗi & Nâng cấp toàn diện tính năng gửi kèm hình ảnh: Chuẩn hóa đường dẫn ảnh, xử lý tự động phân tách tin ngắn gắn caption và tin dài gửi tiếp nối, hỗ trợ đa dạng định dạng ảnh, chống lỗi Zalo Cloud Server",
-    "Bổ sung tính năng cập nhật và điền các trường dữ liệu bị thiếu từ trang Mã Số Thuế vào file Excel của khách hàng",
-    "Thêm nút bấm tùy chọn trường thông tin cần lấy khi cào dữ liệu doanh nghiệp mới",
-    "Tích hợp cửa sổ xác thực & tự động vượt kiểm tra bot Cloudflare (Turnstile) cho masothue.com",
-    "Định dạng chuẩn bảo toàn số 0 ở đầu cho toàn bộ Mã số thuế và Số điện thoại khi nhập xuất Excel"
+    "Sửa triệt để lỗi gửi file PNG: Chuyển đổi và chuẩn hóa tự động các định dạng PNG/WebP/BMP/GIF và ảnh dung lượng lớn sang JPEG chuẩn HD, không bao giờ bị giới hạn chunk 512KB từ Zalo CDN",
+    "Hỗ trợ toàn diện ảnh trong suốt và ảnh chụp màn hình dung lượng cao (2K/4K/Canva/Photoshop)",
+    "Chuẩn hóa đường dẫn file URI (file://) và URL decoding, loại bỏ hoàn toàn lỗi tên file tiếng Việt có dấu",
+    "Cảnh báo trạng thái hình ảnh chính xác trên giao diện gửi thử và tiến trình chiến dịch",
+    "Kèm các tính năng mới: Điền dữ liệu thiếu từ MaSoThue vào file Excel, tùy chọn trường khi cào doanh nghiệp và cửa sổ vượt bảo mật Cloudflare"
   ]
 }
