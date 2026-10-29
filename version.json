@@ -1,8 +1,8 @@
 {
-  "latest_version": "2.1.1",
+  "latest_version": "2.1.2",
   "release_date": "2026-10-29",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.1/Zalo.Auto.Sender.V2.Setup.2.1.1.exe",
-  "release_notes": "Phiên bản V2 (2.1.1): Nâng cấp gửi kèm hình ảnh, bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.2/Zalo.Auto.Sender.V2.Setup.2.1.2.exe",
+  "release_notes": "Phiên bản V2 (2.1.2): Nâng cấp gửi kèm hình ảnh, bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
   "force_update": false,
   "changelog": [
     "Sửa lỗi & Nâng cấp toàn diện tính năng gửi kèm hình ảnh: Chuẩn hóa đường dẫn ảnh, xử lý tự động phân tách tin ngắn gắn caption và tin dài gửi tiếp nối, hỗ trợ đa dạng định dạng ảnh, chống lỗi Zalo Cloud Server",
