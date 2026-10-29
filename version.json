@@ -1,10 +1,11 @@
 {
   "latest_version": "2.1.1",
-  "release_date": "2026-10-28",
+  "release_date": "2026-10-29",
   "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.1/Zalo.Auto.Sender.V2.Setup.2.1.1.exe",
-  "release_notes": "Phiên bản V2 (2.1.1): Bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
+  "release_notes": "Phiên bản V2 (2.1.1): Nâng cấp gửi kèm hình ảnh, bổ sung tính năng điền dữ liệu thiếu từ MaSoThue, tùy chọn trường cần cào, và cửa sổ tự động vượt bảo mật Cloudflare.",
   "force_update": false,
   "changelog": [
+    "Sửa lỗi & Nâng cấp toàn diện tính năng gửi kèm hình ảnh: Chuẩn hóa đường dẫn ảnh, xử lý tự động phân tách tin ngắn gắn caption và tin dài gửi tiếp nối, hỗ trợ đa dạng định dạng ảnh, chống lỗi Zalo Cloud Server",
     "Bổ sung tính năng cập nhật và điền các trường dữ liệu bị thiếu từ trang Mã Số Thuế vào file Excel của khách hàng",
     "Thêm nút bấm tùy chọn trường thông tin cần lấy khi cào dữ liệu doanh nghiệp mới",
     "Tích hợp cửa sổ xác thực & tự động vượt kiểm tra bot Cloudflare (Turnstile) cho masothue.com",
