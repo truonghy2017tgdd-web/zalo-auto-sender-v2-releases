@@ -1,14 +1,14 @@
 {
-  "latest_version": "2.1.3",
-  "release_date": "2026-10-29",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.3/Zalo.Auto.Sender.V2.Setup.2.1.3.exe",
-  "release_notes": "Phiên bản V2 (2.1.3): Sửa triệt để gửi file PNG, tự động tối ưu hóa HD, sửa lỗi giới hạn chunk Zalo, kèm tính năng điền dữ liệu thiếu MST và vượt Cloudflare.",
+  "latest_version": "2.1.4",
+  "release_date": "2026-10-30",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.4/Zalo.Auto.Sender.V2.Setup.2.1.4.exe",
+  "release_notes": "Phiên bản V2 (2.1.4): Khắc phục triệt để lỗi dừng cào data doanh nghiệp trên MaSoThue, tối ưu hóa kết nối Chromium vượt Cloudflare và đóng cửa sổ tự động.",
   "force_update": false,
   "changelog": [
-    "Sửa triệt để lỗi gửi file PNG: Chuyển đổi và chuẩn hóa tự động các định dạng PNG/WebP/BMP/GIF và ảnh dung lượng lớn sang JPEG chuẩn HD, không bao giờ bị giới hạn chunk 512KB từ Zalo CDN",
-    "Hỗ trợ toàn diện ảnh trong suốt và ảnh chụp màn hình dung lượng cao (2K/4K/Canva/Photoshop)",
-    "Chuẩn hóa đường dẫn file URI (file://) và URL decoding, loại bỏ hoàn toàn lỗi tên file tiếng Việt có dấu",
-    "Cảnh báo trạng thái hình ảnh chính xác trên giao diện gửi thử và tiến trình chiến dịch",
-    "Kèm các tính năng mới: Điền dữ liệu thiếu từ MaSoThue vào file Excel, tùy chọn trường khi cào doanh nghiệp và cửa sổ vượt bảo mật Cloudflare"
+    "Khắc phục lỗi dừng cào dữ liệu doanh nghiệp mới khi tra cứu mã số thuế trên MaSoThue",
+    "Chuyển sang Chromium Native Network Stack (session.fetch), vượt hoàn toàn Cloudflare TLS Bot Check (HTTP 403)",
+    "Tối ưu hóa cửa sổ xác thực: tự động đóng nhanh sau 400ms khi trang tải xong, không còn bị treo cửa sổ",
+    "Tiến trình cào chạy tự động, liên tục và ổn định",
+    "Bao gồm toàn bộ tính năng của 2.1.3: Tối ưu ảnh PNG chuẩn HD gửi Zalo, bổ sung MST thiếu vào Excel"
   ]
 }
