@@ -1,14 +1,13 @@
 {
-  "latest_version": "2.1.6",
-  "release_date": "2026-11-03",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.6/Zalo.Auto.Sender.V2.Setup.2.1.6.exe",
-  "release_notes": "Phiên bản V2 (2.1.6): Tự động để trống trường SĐT khi gửi tin nhóm Zalo nếu không có số & Tối ưu hóa tra cứu MST MaSoThue.",
+  "latest_version": "2.1.7",
+  "release_date": "2026-11-09",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.7/Zalo.Auto.Sender.V2.Setup.2.1.7.exe",
+  "release_notes": "Phiên bản V2 (2.1.7): Khắc phục lọc từ khóa loại trừ tên (MISA) & Bổ sung cài đặt Bật/Tắt phím nhanh F2.",
   "force_update": false,
   "changelog": [
-    "Tự động để trống trường SĐT khi gửi tin cho thành viên nhóm Zalo nếu không có SĐT thật (tránh gán nhầm chuỗi UID dài vào tên gợi nhớ [zalo_name] - [phone] hay tin nhắn)",
-    "Tự động tra cứu SĐT Công ty mẹ cho Chi nhánh / Văn phòng đại diện (MST 13 số -001, -002...) nếu trang chi nhánh không công khai SĐT",
-    "Giải mã chính xác URL chi tiết doanh nghiệp qua giao thức AJAX 2 bước của MaSoThue, khắc phục tình trạng bị chuyển hướng sai công ty",
-    "Tích hợp cơ chế tự phục hồi chống chặn HTTP 429 Rate Limit khi quét liên tục",
-    "Sửa lỗi tạo URL phân trang //page2 và //trang-2 trên DoanhNghiep.me và Infocom.vn"
+    "Sửa triệt để bộ lọc từ khóa loại trừ tên: lưu đúng cấu hình chiến dịch, thêm giao diện chỉnh sửa từ khóa, lọc đa tầng trước và sau khi tra cứu Zalo",
+    "Bổ sung cài đặt Bật / Tắt phím nhanh F2 trong Cài đặt chung, giải phóng phím F2 khi dùng Excel",
+    "Cải tiến thanh công cụ cho phép chuyển đổi nhanh V2 <-> V3",
+    "Khôi phục file khởi động CHAY_V2.bat trên màn hình Desktop"
   ]
 }
