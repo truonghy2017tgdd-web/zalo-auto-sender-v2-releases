@@ -1,13 +1,13 @@
 {
-  "latest_version": "2.1.7",
-  "release_date": "2026-11-09",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.7/Zalo.Auto.Sender.V2.Setup.2.1.7.exe",
-  "release_notes": "Phiên bản V2 (2.1.7): Khắc phục lọc từ khóa loại trừ tên (MISA) & Bổ sung cài đặt Bật/Tắt phím nhanh F2.",
+  "latest_version": "2.1.8",
+  "release_date": "2026-11-17",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.8/Zalo.Auto.Sender.V2.Setup.2.1.8.exe",
+  "release_notes": "Phiên bản V2 (2.1.8): Tự động sửa lỗi & cứu hộ CSDL SQLite (malformed) và nâng cấp nhận diện tên thông minh khi chúc mừng sinh nhật.",
   "force_update": false,
   "changelog": [
-    "Sửa triệt để bộ lọc từ khóa loại trừ tên: lưu đúng cấu hình chiến dịch, thêm giao diện chỉnh sửa từ khóa, lọc đa tầng trước và sau khi tra cứu Zalo",
-    "Bổ sung cài đặt Bật / Tắt phím nhanh F2 trong Cài đặt chung, giải phóng phím F2 khi dùng Excel",
-    "Cải tiến thanh công cụ cho phép chuyển đổi nhanh V2 <-> V3",
-    "Khôi phục file khởi động CHAY_V2.bat trên màn hình Desktop"
+    "Khắc phục lỗi database disk image is malformed: kiểm tra PRAGMA quick_check khi khởi động, tự động REINDEX và cứu hộ tài khoản/chiến dịch sang DB sạch",
+    "Bảo vệ bản sao lưu .bak không bị ghi đè bởi file lỗi và tự động phục hồi ngay khi lưu chiến dịch",
+    "Nâng cấp nhận diện tên thông minh khi chúc mừng sinh nhật: loại bỏ chức danh (Kế toán, GĐ...), tên sản phẩm (MISA...), tên công ty",
+    "Hỗ trợ định dạng tên trước họ sau (Lan Anh Nguyễn -> Lan Anh) và giữ nguyên tên ghép (Lan Anh, Tuấn Anh...)"
   ]
 }
