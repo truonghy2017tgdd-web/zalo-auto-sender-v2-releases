@@ -1,13 +1,13 @@
 {
-  "latest_version": "2.1.8",
-  "release_date": "2026-11-17",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.8/Zalo.Auto.Sender.V2.Setup.2.1.8.exe",
-  "release_notes": "Phiên bản V2 (2.1.8): Tự động sửa lỗi & cứu hộ CSDL SQLite (malformed) và nâng cấp nhận diện tên thông minh khi chúc mừng sinh nhật.",
+  "latest_version": "2.1.9",
+  "release_date": "2026-11-19",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.9/Zalo.Auto.Sender.V2.Setup.2.1.9.exe",
+  "release_notes": "Phiên bản V2 (2.1.9): Bổ sung lọc Giới tính Bước 3, lọc kết hợp Giới tính + Thẻ ở Lễ Tết, cứu hộ CSDL và nhận diện tên sinh nhật thông minh.",
   "force_update": false,
   "changelog": [
-    "Khắc phục lỗi database disk image is malformed: kiểm tra PRAGMA quick_check khi khởi động, tự động REINDEX và cứu hộ tài khoản/chiến dịch sang DB sạch",
-    "Bảo vệ bản sao lưu .bak không bị ghi đè bởi file lỗi và tự động phục hồi ngay khi lưu chiến dịch",
-    "Nâng cấp nhận diện tên thông minh khi chúc mừng sinh nhật: loại bỏ chức danh (Kế toán, GĐ...), tên sản phẩm (MISA...), tên công ty",
-    "Hỗ trợ định dạng tên trước họ sau (Lan Anh Nguyễn -> Lan Anh) và giữ nguyên tên ghép (Lan Anh, Tuấn Anh...)"
+    "Bổ sung bộ lọc Giới tính (Tất cả / Nam / Nữ) tại Bước 3 Cấu hình & Gửi (hỗ trợ cả Bạn bè Zalo và Data Excel/SĐT)",
+    "Nâng cấp Gửi chúc mừng Lễ Tết hỗ trợ chọn kết hợp cả Giới tính và Thẻ phân loại Zalo cùng lúc",
+    "Tự động sửa lỗi & cứu hộ CSDL SQLite (database disk image is malformed)",
+    "Nhận diện tên thông minh khi chúc mừng sinh nhật & Lễ Tết (tách chức danh, sản phẩm, tên công ty, tên trước họ sau)"
   ]
 }
