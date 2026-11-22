@@ -1,13 +1,12 @@
 {
-  "latest_version": "2.1.9",
-  "release_date": "2026-11-19",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.9/Zalo.Auto.Sender.V2.Setup.2.1.9.exe",
-  "release_notes": "Phiên bản V2 (2.1.9): Bổ sung lọc Giới tính Bước 3, lọc kết hợp Giới tính + Thẻ ở Lễ Tết, cứu hộ CSDL và nhận diện tên sinh nhật thông minh.",
+  "latest_version": "2.1.10",
+  "release_date": "2026-11-22",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.10/Zalo.Auto.Sender.V2.Setup.2.1.10.exe",
+  "release_notes": "Phiên bản V2 (2.1.10): Sửa lỗi cửa sổ xác thực MaSoThue nhấp nháy/cướp focus & Bổ sung nút Báo giá phần mềm.",
   "force_update": false,
   "changelog": [
-    "Bổ sung bộ lọc Giới tính (Tất cả / Nam / Nữ) tại Bước 3 Cấu hình & Gửi (hỗ trợ cả Bạn bè Zalo và Data Excel/SĐT)",
-    "Nâng cấp Gửi chúc mừng Lễ Tết hỗ trợ chọn kết hợp cả Giới tính và Thẻ phân loại Zalo cùng lúc",
-    "Tự động sửa lỗi & cứu hộ CSDL SQLite (database disk image is malformed)",
-    "Nhận diện tên thông minh khi chúc mừng sinh nhật & Lễ Tết (tách chức danh, sản phẩm, tên công ty, tên trước họ sau)"
+    "Sửa triệt để lỗi cửa sổ xác thực MaSoThue hiện rồi ẩn liên tục; nhận diện lớp chặn mới và tắt cướp tiêu điểm",
+    "Bổ sung nút Báo giá trên thanh tiêu đề mở trực tiếp https://baogiamisa.netlify.app/",
+    "Giữ nguyên toàn bộ nâng cấp từ v2.1.9 (Lọc Giới tính Bước 3, Lọc Giới tính + Thẻ Lễ Tết, Cứu hộ CSDL, Sinh nhật thông minh)"
   ]
 }
