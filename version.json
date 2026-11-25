@@ -1,7 +1,7 @@
 {
   "latest_version": "2.1.10",
   "release_date": "2026-11-22",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.10/Zalo.Auto.Sender.V2.Setup.2.1.10.exe",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.11/Zalo.Auto.Sender.V2.Setup.2.1.11.exe",
   "release_notes": "Phiên bản V2 (2.1.10): Sửa lỗi cửa sổ xác thực MaSoThue nhấp nháy/cướp focus & Bổ sung nút Báo giá phần mềm.",
   "force_update": false,
   "changelog": [
