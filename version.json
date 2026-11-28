@@ -1,12 +1,17 @@
 {
-  "latest_version": "2.1.10",
-  "release_date": "2026-11-22",
-  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.1.11/Zalo.Auto.Sender.V2.Setup.2.1.11.exe",
-  "release_notes": "Phiên bản V2 (2.1.10): Sửa lỗi cửa sổ xác thực MaSoThue nhấp nháy/cướp focus & Bổ sung nút Báo giá phần mềm.",
+  "latest_version": "2.2.0",
+  "min_required_version": "2.0.0",
+  "release_date": "2026-11-28",
+  "download_url": "https://github.com/truonghy2017tgdd-web/zalo-auto-sender-v2-releases/releases/download/v2.2.0/Zalo.Auto.Sender.V2.Setup.2.2.0.exe",
+  "release_notes": "Phiên bản V2 (2.2.0): Email Marketing & Tự động hóa đa kênh, giao diện sáng mặc định, lọc doanh nghiệp mới thành lập và tối ưu trải nghiệm.",
   "force_update": false,
   "changelog": [
-    "Sửa triệt để lỗi cửa sổ xác thực MaSoThue hiện rồi ẩn liên tục; nhận diện lớp chặn mới và tắt cướp tiêu điểm",
-    "Bổ sung nút Báo giá trên thanh tiêu đề mở trực tiếp https://baogiamisa.netlify.app/",
-    "Giữ nguyên toàn bộ nâng cấp từ v2.1.9 (Lọc Giới tính Bước 3, Lọc Giới tính + Thẻ Lễ Tết, Cứu hộ CSDL, Sinh nhật thông minh)"
+    "Tích hợp phân hệ Email Marketing & Tự động hóa đa kênh: Gmail App Password, Outlook, SMTP, Brevo API, Mailgun API",
+    "Trình soạn thảo Email trực quan giống Microsoft Word (chèn ảnh, nút bấm CTA gắn link, khung nổi bật, bảng biểu)",
+    "Kho Liên hệ & Nhóm/Tags hỗ trợ tạo nhóm trước khi nhập hoặc nhập trực tiếp rồi phân loại sau, xác minh DNS MX và tự động Hủy đăng ký",
+    "Tích hợp sẵn Cloudflare Tracking Mở/Click/Hủy đăng ký chạy ngầm 24/7 không cần người dùng tự cấu hình",
+    "Gộp quản lý Tài khoản Zalo • Mail • Facebook ngay tại màn hình Tài Khoản và bổ sung Hướng dẫn động 6 bước cho cả Zalo & Email",
+    "Sửa triệt để lỗi mất chiến dịch đang chạy khi cập nhật V2 -> V2 (sao lưu pre-update, fsync an toàn, giữ nguyên chiến dịch Auto-Sync/Auto-Feed)",
+    "Sửa lỗi chữ trắng mờ trên nút nền pastel ở Giao diện Sáng (Light Mode) và gỡ bỏ chế độ chuyển giao diện V3"
   ]
 }
